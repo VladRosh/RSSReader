@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FramedTextfield.h
 //  RSSReaderTest
 //
 //  Created by VLAD on 27/06/2017.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CustomTextfield : UITextField
 
+- (void) setNormState;
+- (void) setWarnState;
 
 @end
-

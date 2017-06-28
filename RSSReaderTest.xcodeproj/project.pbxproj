@@ -7,27 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0A731295E431EF93277F78B /* libPods-RSSReaderTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA77FA9612CA39652A5C380 /* libPods-RSSReaderTest.a */; };
 		F50655B11F02BDDA003F78CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655B01F02BDDA003F78CF /* main.m */; };
 		F50655B41F02BDDA003F78CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655B31F02BDDA003F78CF /* AppDelegate.m */; };
-		F50655B71F02BDDA003F78CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655B61F02BDDA003F78CF /* ViewController.m */; };
 		F50655BA1F02BDDA003F78CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50655B81F02BDDA003F78CF /* Main.storyboard */; };
 		F50655BD1F02BDDA003F78CF /* RSSReaderTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F50655BB1F02BDDA003F78CF /* RSSReaderTest.xcdatamodeld */; };
 		F50655BF1F02BDDB003F78CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50655BE1F02BDDA003F78CF /* Assets.xcassets */; };
 		F50655C21F02BDDB003F78CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50655C01F02BDDB003F78CF /* LaunchScreen.storyboard */; };
+		F50655D61F02D5B2003F78CF /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655D51F02D5B2003F78CF /* ChannelViewController.m */; };
+		F50655D91F02D5C4003F78CF /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655D81F02D5C4003F78CF /* NewsViewController.m */; };
+		F50655DC1F02D5E9003F78CF /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655DB1F02D5E9003F78CF /* BrowserViewController.m */; };
+		F50655E01F02E588003F78CF /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655DF1F02E588003F78CF /* CoreDataManager.m */; };
+		F50655E31F02E69D003F78CF /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655E21F02E69D003F78CF /* NetworkManager.m */; };
+		F50655E61F02E6B1003F78CF /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655E51F02E6B1003F78CF /* RSSParser.m */; };
+		F50655EE1F02E8EA003F78CF /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655ED1F02E8EA003F78CF /* Item.m */; };
+		F50655F11F02E90C003F78CF /* Item+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655F01F02E90C003F78CF /* Item+Extension.m */; };
+		F50655F41F02E995003F78CF /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655F31F02E995003F78CF /* ViewModel.m */; };
+		F50655F71F02EF24003F78CF /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655F61F02EF24003F78CF /* NewsTableViewCell.m */; };
+		F50655FA1F02EF76003F78CF /* NetStatusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655F91F02EF76003F78CF /* NetStatusLabel.m */; };
+		F50655FD1F02EFD0003F78CF /* CustomTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655FC1F02EFD0003F78CF /* CustomTextfield.m */; };
+		F50656001F02F512003F78CF /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F50655FF1F02F512003F78CF /* UIViewController+Extension.m */; };
+		F50656031F02F5F6003F78CF /* RSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50656021F02F5F6003F78CF /* RSSTableViewController.m */; };
+		F50656061F03B4C6003F78CF /* AddChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50656051F03B4C6003F78CF /* AddChannelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12119904324670AC8FE6F81F /* Pods-RSSReaderTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReaderTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReaderTest/Pods-RSSReaderTest.release.xcconfig"; sourceTree = "<group>"; };
+		6AA77FA9612CA39652A5C380 /* libPods-RSSReaderTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSReaderTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AECE7E9689DBE0254555CF /* Pods-RSSReaderTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReaderTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReaderTest/Pods-RSSReaderTest.debug.xcconfig"; sourceTree = "<group>"; };
 		F50655AC1F02BDDA003F78CF /* RSSReaderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReaderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50655B01F02BDDA003F78CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F50655B21F02BDDA003F78CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F50655B31F02BDDA003F78CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F50655B51F02BDDA003F78CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F50655B61F02BDDA003F78CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F50655B91F02BDDA003F78CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F50655BC1F02BDDA003F78CF /* RSSReaderTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSSReaderTest.xcdatamodel; sourceTree = "<group>"; };
 		F50655BE1F02BDDA003F78CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F50655C11F02BDDB003F78CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F50655C31F02BDDB003F78CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50655D41F02D5B2003F78CF /* ChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelViewController.h; sourceTree = "<group>"; };
+		F50655D51F02D5B2003F78CF /* ChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelViewController.m; sourceTree = "<group>"; };
+		F50655D71F02D5C4003F78CF /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		F50655D81F02D5C4003F78CF /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		F50655DA1F02D5E9003F78CF /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		F50655DB1F02D5E9003F78CF /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		F50655DE1F02E588003F78CF /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		F50655DF1F02E588003F78CF /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		F50655E11F02E69D003F78CF /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		F50655E21F02E69D003F78CF /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		F50655E41F02E6B1003F78CF /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
+		F50655E51F02E6B1003F78CF /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
+		F50655EC1F02E8EA003F78CF /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		F50655ED1F02E8EA003F78CF /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		F50655EF1F02E90C003F78CF /* Item+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+Extension.h"; sourceTree = "<group>"; };
+		F50655F01F02E90C003F78CF /* Item+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+Extension.m"; sourceTree = "<group>"; };
+		F50655F21F02E995003F78CF /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		F50655F31F02E995003F78CF /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		F50655F51F02EF24003F78CF /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		F50655F61F02EF24003F78CF /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		F50655F81F02EF76003F78CF /* NetStatusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStatusLabel.h; sourceTree = "<group>"; };
+		F50655F91F02EF76003F78CF /* NetStatusLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStatusLabel.m; sourceTree = "<group>"; };
+		F50655FB1F02EFD0003F78CF /* CustomTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextfield.h; sourceTree = "<group>"; };
+		F50655FC1F02EFD0003F78CF /* CustomTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextfield.m; sourceTree = "<group>"; };
+		F50655FE1F02F512003F78CF /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		F50655FF1F02F512003F78CF /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		F50656011F02F5F6003F78CF /* RSSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSTableViewController.h; sourceTree = "<group>"; };
+		F50656021F02F5F6003F78CF /* RSSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTableViewController.m; sourceTree = "<group>"; };
+		F50656041F03B4C6003F78CF /* AddChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChannelViewController.h; sourceTree = "<group>"; };
+		F50656051F03B4C6003F78CF /* AddChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChannelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A731295E431EF93277F78B /* libPods-RSSReaderTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CDA90EE3F44A31911D0E956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6AECE7E9689DBE0254555CF /* Pods-RSSReaderTest.debug.xcconfig */,
+				12119904324670AC8FE6F81F /* Pods-RSSReaderTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F3A62A90CF0F506C6B326A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA77FA9612CA39652A5C380 /* libPods-RSSReaderTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F50655A31F02BDDA003F78CF = {
 			isa = PBXGroup;
 			children = (
 				F50655AE1F02BDDA003F78CF /* RSSReaderTest */,
 				F50655AD1F02BDDA003F78CF /* Products */,
+				4CDA90EE3F44A31911D0E956 /* Pods */,
+				9F3A62A90CF0F506C6B326A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +128,11 @@
 			children = (
 				F50655B21F02BDDA003F78CF /* AppDelegate.h */,
 				F50655B31F02BDDA003F78CF /* AppDelegate.m */,
-				F50655B51F02BDDA003F78CF /* ViewController.h */,
-				F50655B61F02BDDA003F78CF /* ViewController.m */,
+				F50655DD1F02D609003F78CF /* Extensions */,
+				F50655CC1F02CD04003F78CF /* Manager */,
+				F50655CA1F02CCF7003F78CF /* Models */,
+				F50655CD1F02D1C6003F78CF /* Views */,
+				F50655C91F02CCDE003F78CF /* Controllers */,
 				F50655B81F02BDDA003F78CF /* Main.storyboard */,
 				F50655BE1F02BDDA003F78CF /* Assets.xcassets */,
 				F50655C01F02BDDB003F78CF /* LaunchScreen.storyboard */,
@@ -82,6 +151,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F50655C91F02CCDE003F78CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F50656011F02F5F6003F78CF /* RSSTableViewController.h */,
+				F50656021F02F5F6003F78CF /* RSSTableViewController.m */,
+				F50656041F03B4C6003F78CF /* AddChannelViewController.h */,
+				F50656051F03B4C6003F78CF /* AddChannelViewController.m */,
+				F50655D41F02D5B2003F78CF /* ChannelViewController.h */,
+				F50655D51F02D5B2003F78CF /* ChannelViewController.m */,
+				F50655D71F02D5C4003F78CF /* NewsViewController.h */,
+				F50655D81F02D5C4003F78CF /* NewsViewController.m */,
+				F50655DA1F02D5E9003F78CF /* BrowserViewController.h */,
+				F50655DB1F02D5E9003F78CF /* BrowserViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F50655CA1F02CCF7003F78CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F50655EB1F02E8C8003F78CF /* View */,
+				F50655EA1F02E8BA003F78CF /* Network */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F50655CC1F02CD04003F78CF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F50655E41F02E6B1003F78CF /* RSSParser.h */,
+				F50655E51F02E6B1003F78CF /* RSSParser.m */,
+				F50655DE1F02E588003F78CF /* CoreDataManager.h */,
+				F50655DF1F02E588003F78CF /* CoreDataManager.m */,
+				F50655E11F02E69D003F78CF /* NetworkManager.h */,
+				F50655E21F02E69D003F78CF /* NetworkManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		F50655CD1F02D1C6003F78CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F50655F51F02EF24003F78CF /* NewsTableViewCell.h */,
+				F50655F61F02EF24003F78CF /* NewsTableViewCell.m */,
+				F50655F81F02EF76003F78CF /* NetStatusLabel.h */,
+				F50655F91F02EF76003F78CF /* NetStatusLabel.m */,
+				F50655FB1F02EFD0003F78CF /* CustomTextfield.h */,
+				F50655FC1F02EFD0003F78CF /* CustomTextfield.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F50655DD1F02D609003F78CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F50655FE1F02F512003F78CF /* UIViewController+Extension.h */,
+				F50655FF1F02F512003F78CF /* UIViewController+Extension.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F50655EA1F02E8BA003F78CF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F50655EC1F02E8EA003F78CF /* Item.h */,
+				F50655ED1F02E8EA003F78CF /* Item.m */,
+				F50655EF1F02E90C003F78CF /* Item+Extension.h */,
+				F50655F01F02E90C003F78CF /* Item+Extension.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F50655EB1F02E8C8003F78CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F50655F21F02E995003F78CF /* ViewModel.h */,
+				F50655F31F02E995003F78CF /* ViewModel.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F50655C61F02BDDB003F78CF /* Build configuration list for PBXNativeTarget "RSSReaderTest" */;
 			buildPhases = (
+				E6B81BEFED75E192C1C083F2 /* [CP] Check Pods Manifest.lock */,
 				F50655A81F02BDDA003F78CF /* Sources */,
 				F50655A91F02BDDA003F78CF /* Frameworks */,
 				F50655AA1F02BDDA003F78CF /* Resources */,
+				99C4FB9A1F8B8B04ADE42435 /* [CP] Embed Pods Frameworks */,
+				DFB0A3F9D0658E8A387BE21B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,15 +301,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99C4FB9A1F8B8B04ADE42435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSReaderTest/Pods-RSSReaderTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB0A3F9D0658E8A387BE21B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSReaderTest/Pods-RSSReaderTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B81BEFED75E192C1C083F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F50655A81F02BDDA003F78CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F50655B71F02BDDA003F78CF /* ViewController.m in Sources */,
+				F50655F41F02E995003F78CF /* ViewModel.m in Sources */,
+				F50655F11F02E90C003F78CF /* Item+Extension.m in Sources */,
+				F50655E01F02E588003F78CF /* CoreDataManager.m in Sources */,
+				F50655E31F02E69D003F78CF /* NetworkManager.m in Sources */,
+				F50655FA1F02EF76003F78CF /* NetStatusLabel.m in Sources */,
+				F50655D61F02D5B2003F78CF /* ChannelViewController.m in Sources */,
+				F50655D91F02D5C4003F78CF /* NewsViewController.m in Sources */,
 				F50655BD1F02BDDA003F78CF /* RSSReaderTest.xcdatamodeld in Sources */,
+				F50655E61F02E6B1003F78CF /* RSSParser.m in Sources */,
+				F50656031F02F5F6003F78CF /* RSSTableViewController.m in Sources */,
+				F50655F71F02EF24003F78CF /* NewsTableViewCell.m in Sources */,
 				F50655B41F02BDDA003F78CF /* AppDelegate.m in Sources */,
 				F50655B11F02BDDA003F78CF /* main.m in Sources */,
+				F50656061F03B4C6003F78CF /* AddChannelViewController.m in Sources */,
+				F50655FD1F02EFD0003F78CF /* CustomTextfield.m in Sources */,
+				F50655EE1F02E8EA003F78CF /* Item.m in Sources */,
+				F50656001F02F512003F78CF /* UIViewController+Extension.m in Sources */,
+				F50655DC1F02D5E9003F78CF /* BrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +489,7 @@
 		};
 		F50655C71F02BDDB003F78CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AECE7E9689DBE0254555CF /* Pods-RSSReaderTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RSSReaderTest/Info.plist;
@@ -285,6 +501,7 @@
 		};
 		F50655C81F02BDDB003F78CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12119904324670AC8FE6F81F /* Pods-RSSReaderTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RSSReaderTest/Info.plist;
@@ -313,6 +530,7 @@
 				F50655C81F02BDDB003F78CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
