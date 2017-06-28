@@ -354,13 +354,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="tbJ-fr-2KR">
                         <barButtonItem key="leftBarButtonItem" image="back" id="eoX-U8-rU3">
-                            <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="backButton:" destination="BpB-7c-BkU" id="Kl9-xk-4i2"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="safari" id="cMA-PN-dyc">
-                            <color key="tintColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="openBrowserBtn:" destination="BpB-7c-BkU" id="XBZ-vd-hmG"/>
                             </connections>

@@ -21,7 +21,7 @@
     
     self.delegate = self;
     
-    self.view.tintColor = [UIColor orangeColor];
+    self.view.tintColor = [UIColor blueColor];
     
     UIBarButtonItem *backBarButton =
     [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back"]
@@ -29,7 +29,7 @@
                                     target:self
                                     action:@selector(backBarButtonAction:)];
     
-    backBarButton.tintColor = [UIColor orangeColor];
+    backBarButton.tintColor = [UIColor blueColor];
     
     self.navigationItem.leftBarButtonItem = backBarButton;
     
